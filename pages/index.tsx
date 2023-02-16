@@ -55,7 +55,7 @@ export default function HomeScreen() {
           textAlign="center"
           marginTop="5"
         >
-          Mini curso com o <strong>DevSoutinho</strong>, fazendo o CRUD glorificado que você sempre quis, com muito humor e conteúdo
+          Mini curso com o <a href="https://youtube.com/DevSoutinho" target="_blank"><strong>DevSoutinho</strong></a>, fazendo o CRUD glorificado que você sempre quis, com muito humor e conteúdo
         </Text>
         <Text
           textAlign="center"
