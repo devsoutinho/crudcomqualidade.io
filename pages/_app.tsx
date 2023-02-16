@@ -1,10 +1,14 @@
 import { ChakraProvider } from '@chakra-ui/react';
+import { TagManager } from "../src/infra/TagManager";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ChakraProvider>
-      <Component {...pageProps} />
-    </ChakraProvider>
+    <>
+      <TagManager />
+      <ChakraProvider>
+        <Component {...pageProps} />
+      </ChakraProvider>
+    </>
   )
 }
 
