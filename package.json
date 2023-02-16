@@ -1,0 +1,27 @@
+{
+  "name": "crudcomqualidade.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:devsoutinho/crudcomqualidade.io.git",
+  "author": "Mario Souto <13791385+omariosouto@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.5.1",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "framer-motion": "^9.0.4",
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.13.0",
+    "@types/react": "18.0.28",
+    "typescript": "4.9.5"
+  }
+}
