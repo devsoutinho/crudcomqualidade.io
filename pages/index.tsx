@@ -49,6 +49,7 @@ export default function HomeScreen() {
         <Image
           src="/capa.png"
           alt="CRUDs com Qualidade"
+          width="100%"
           maxWidth="500px"
         />
         <Text
@@ -103,7 +104,7 @@ export default function HomeScreen() {
             marginTop="5"
             disabled={!isValidEmail(email)}
           >
-            Lista de espera
+            Entrar na Lista de espera
           </Button>
         </Box>
 
