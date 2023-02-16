@@ -113,7 +113,7 @@ export default function HomeScreen() {
           textAlign="center"
           marginTop="10"
         >
-          Quer ver o código desse site que foi feito em <strong>menos de 2 horas</strong>?
+          Quer ver o código desse site que foi feito em <strong>menos de 30 minutos</strong>?
         </Link>
       </Box>
     </>
