@@ -61,7 +61,7 @@ export default function HomeScreen() {
           textAlign="center"
           marginTop="10"
         >
-          Increva-se na newsletter para receber as novidades
+          Inscreva-se na newsletter para receber as novidades
         </Text>
         <Box
           as="form"
