@@ -4,6 +4,16 @@
 
 ## O que é ?
 
+> Meu compromisso é você terminar falando "EU SEI FAZER CRUDs!"
+
 Mini curso com o DevSoutinho, fazendo o CRUD glorificado que você sempre quis, com muito humor e conteúdo
 
 [Increva-se na newsletter](https://crudcomqualidade.io) para receber as novidades
+
+## Ementa
+
+- Create
+- Read
+- Update
+- Delete
+- Em breve mais overengineerings e técnicas, ativa o sininho, se inscreve na newsletter e fica de olho!

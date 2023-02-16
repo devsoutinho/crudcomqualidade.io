@@ -1,4 +1,4 @@
-import { Box, Button, Image, Input, InputGroup, InputLeftElement, Text } from "@chakra-ui/react";
+import { Box, Button, Image, Input, InputGroup, InputLeftElement, Link, Text } from "@chakra-ui/react";
 import Head from "next/head";
 import React from "react";
 
@@ -55,7 +55,7 @@ export default function HomeScreen() {
           textAlign="center"
           marginTop="5"
         >
-          Mini curso com o <a href="https://youtube.com/DevSoutinho" target="_blank"><strong>DevSoutinho</strong></a>, fazendo o CRUD glorificado que você sempre quis, com muito humor e conteúdo
+          Mini curso com o <Link href="https://youtube.com/DevSoutinho" target="_blank"><strong>DevSoutinho</strong></Link>, fazendo o CRUD glorificado que você sempre quis, com muito humor e conteúdo
         </Text>
         <Text
           textAlign="center"
@@ -106,6 +106,15 @@ export default function HomeScreen() {
             Lista de espera
           </Button>
         </Box>
+
+
+        <Link
+          href="https://github.com/devsoutinho/crudcomqualidade.io"
+          textAlign="center"
+          marginTop="10"
+        >
+          Quer ver o código desse site que foi feito em <strong>menos de 2 horas</strong>?
+        </Link>
       </Box>
     </>
   );
