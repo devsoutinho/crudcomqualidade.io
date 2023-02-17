@@ -28,6 +28,7 @@ export default function HomeScreen() {
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:image" itemProp="image" content={ogImage} />
+        <meta property="og:updated_time" content="1440432930" />
 
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="summary_large_image" />
