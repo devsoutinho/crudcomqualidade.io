@@ -5,7 +5,7 @@ import React from "react";
 export default function HomeScreen() {
   const title = "CRUDs com Qualidade";
   const description = "Mini curso com o DevSoutinho, fazendo o CRUD glorificado que você sempre quis, com muito humor e conteúdo";
-  const ogImage = "https://crudcomqualidade.io/og.png";
+  const ogImage = "https://crudcomqualidade.io/og.jpg";
   const url = "https://crudcomqualidade.io/";
 
   const [email, setEmail] = React.useState("");
