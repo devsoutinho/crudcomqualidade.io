@@ -87,7 +87,7 @@ export default function HomeScreen() {
               colorScheme="orange"
               placeholder='pessoa@email.com'
               value={email}
-              onChange={(event) => setEmail(event.target.value)}
+              onChange={(event) => setEmail(event.target.value.trim())}
               // Mailchimp Stuff
               id="mce-EMAIL"
               name="EMAIL"
