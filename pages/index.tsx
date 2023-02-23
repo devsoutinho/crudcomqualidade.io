@@ -110,6 +110,7 @@ export default function HomeScreen() {
           <Link
             mt={4}
             textAlign="center"
+            display="none"
             href={process.env.NEXT_PUBLIC_BUY_PRODUCT_URL}
           >
             Comprar agora!
@@ -125,6 +126,7 @@ export default function HomeScreen() {
           Quer ver o código desse site que foi feito em <strong>menos de 30 minutos</strong>?
         </Link>
       </Box>
+      
     </>
   );
 }
