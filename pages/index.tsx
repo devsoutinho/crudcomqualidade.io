@@ -107,6 +107,14 @@ export default function HomeScreen() {
           >
             Entrar na Lista de espera
           </Button>
+          <Link
+            mt={4}
+            display="none"
+            textAlign="center"
+            href={process.env.NEXT_PUBLIC_BUY_PRODUCT_URL}
+          >
+            Comprar agora!
+          </Link>
         </Box>
 
 
