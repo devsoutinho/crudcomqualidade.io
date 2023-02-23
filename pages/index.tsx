@@ -109,7 +109,6 @@ export default function HomeScreen() {
           </Button>
           <Link
             mt={4}
-            display="none"
             textAlign="center"
             href={process.env.NEXT_PUBLIC_BUY_PRODUCT_URL}
           >
