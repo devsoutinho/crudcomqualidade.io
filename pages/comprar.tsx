@@ -8,12 +8,6 @@ export default function HomeScreen() {
   const ogImage = "https://crudcomqualidade.io/og.jpg";
   const url = "https://crudcomqualidade.io/";
 
-  const [email, setEmail] = React.useState("");
-
-  function isValidEmail(email: string) {
-    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-  }
-
   return (
     <>
       <Head>
@@ -63,62 +57,33 @@ export default function HomeScreen() {
           textAlign="center"
           marginTop="10"
         >
-          Inscreva-se na newsletter para receber as novidades
+          Garanta agora mesmo o seu acesso!
         </Text>
         <Box
-          as="form"
-          marginTop="5"
-          display="flex"
-          flexDirection="column"
-          // MailChimp Stuff
-          name="mc-embedded-subscribe-form"
-          action="https://mariosouto.us8.list-manage.com/subscribe/post?u=8225f161ef3ee7a744fd4a2ba&id=2e2754236e"
-          method="post"
-          id="mc-embedded-subscribe-form"
-        >
-          <InputGroup>
-            <InputLeftElement
-              pointerEvents='none'
-              color='gray.300'
-              fontSize='1.2em'
-              children='@'
-            />
-            <Input
-              colorScheme="orange"
-              placeholder='pessoa@email.com'
-              value={email}
-              onChange={(event) => setEmail(event.target.value.replace(/\s/g, "").toLowerCase())}
-              // Mailchimp Stuff
-              id="mce-EMAIL"
-              name="EMAIL"
-            />
-          </InputGroup>
-
-          <div style={{ position: "absolute", left: "-50000px" }} aria-hidden="true"><input type="text" name="b_8225f161ef3ee7a744fd4a2ba_2e2754236e" tabIndex={-1} /></div>
-
-          <Button
-            type="submit"
-            colorScheme={isValidEmail(email) ? "orange" : "gray"}
-            sx={{
-              pointerEvents: isValidEmail(email) ? "auto" : "none",
-            }}
-            marginTop="5"
-            disabled={!isValidEmail(email)}
-          >
-            Entrar na Lista de espera
-          </Button>
-        </Box>
-
-
-        <Link
-          href="https://github.com/devsoutinho/crudcomqualidade.io"
-          textAlign="center"
           marginTop="10"
         >
-          Quer ver o código desse site que foi feito em <strong>menos de 30 minutos</strong>?
-        </Link>
+          <Link
+            colorScheme="orange"
+            borderRadius="md"
+            padding="4"
+            fontWeight={600}
+            backgroundColor="green.500"
+            color="white"
+            _hover={{
+              backgroundColor: "green.600",
+            }}
+            _focus={{
+              backgroundColor: "green.600",
+            }}
+            textAlign="center"
+            textDecoration="none !important"
+            href={process.env.NEXT_PUBLIC_BUY_PRODUCT_URL}
+          >
+            Comprar agora
+          </Link>
+        </Box>
       </Box>
-      
+
     </>
   );
 }
