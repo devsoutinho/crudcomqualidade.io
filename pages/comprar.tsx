@@ -51,7 +51,7 @@ export default function HomeScreen() {
           textAlign="center"
           marginTop="5"
         >
-          Mini workshop com o <Link href="https://youtube.com/DevSoutinho" target="_blank"><strong>DevSoutinho</strong></Link>, fazendo o CRUD glorificado que você sempre quis, com muito humor e conteúdo
+          Curso com o <Link href="https://youtube.com/DevSoutinho" target="_blank"><strong>DevSoutinho</strong></Link>, fazendo o CRUD glorificado que você sempre quis, com muito humor e conteúdo
         </Text>
         <Text
           textAlign="center"
